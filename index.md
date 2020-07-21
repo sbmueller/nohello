@@ -1,4 +1,4 @@
-# Please Don't Say Just Hello In Chat
+# Please Don't Just Say Hello In Chat
 
 <pre>
 2010-07-19 12:32:12 you: Hi
