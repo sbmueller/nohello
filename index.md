@@ -57,8 +57,3 @@ Instead of sending a call probe, or asking "hey, do you have time for a call?"
 This does three things: it time bounds the request, it gives the recipient some context, and
 it helps you remember what you wanted to talk about if the recipient can't or doesn't respond
 until later.
-
-This version was inspired by the original website [nohello.com](http://www.nohello.com/).
-Acknowledgements go to the original anonymous author. I felt an urge to
-modernize this gem with a more suitable layout and https connection. The source
-of this file is publicly available on [github.com](https://github.com/sbmueller/nohello).
