@@ -13,6 +13,6 @@ generate-md --layout=github --input index.md --output .
 
 ## Acknowledgements
 
-This website was inspired by the original at nohello.com. Acknowledgements
+This website was copied from the original at nohello.com. Acknowledgements
 go to the original anonymous author. I felt an urge to modernize this gem with
 a more suitable layout, https connection and open-sourced code.
