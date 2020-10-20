@@ -1,0 +1,28 @@
+name: generate-html
+on:
+  push:
+    paths:
+      - "index.md"
+    branches:
+      - master
+jobs:
+  generate-html:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Run pandoc
+        uses: docker://pandoc/latex:2.9
+        with:
+          args: "pandoc --standalone --metadata pagetitle=\"nohello\" --css \"assets/css/pandoc.css\" --output=index.html index.md"
+      - name: Commit
+        run: |
+          git config --global user.name "Sebastian Müller"
+          git config --global user.email "gsenpo@gmail.com"
+          git add index.html
+          git commit -m "[BOT] Generate HTML from Markdown"
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
