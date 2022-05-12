@@ -68,6 +68,6 @@ Instead of sending a call probe, or asking "hey, do you have time for a call?"
 
 This does three things: it time bounds the request, it gives the recipient some
 context, and it helps you remember what you wanted to talk about if the
-recipient can't or doesn't respond until later.
+recipient can't or doesn't respond until later. As a bonus, if they can't respond right away, they will have a better chance at suggesting who else you might ask in the meantime.
 
 <sup>The source for this website is open and available on [GitHub](https://github.com/sbmueller/nohello).</sup>
