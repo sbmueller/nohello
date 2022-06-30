@@ -4,29 +4,30 @@
 
 Modern chat communication should be done in a way that saves time for all
 participants and enables an efficient, asynchronous exchange of information.
-**Don't expect an answer if you just write "Hello" in chat**. Instead, phrase a
-message that allows your chat partners to provide a meaningful response as soon
-as they allocate time to read and answer your message.
+**Don't expect an answer if you just write "Hello" in chat**. Don't call
+someone out of the blue. Instead, phrase a message that allows your chat
+partners to provide a meaningful response as soon as they allocate time to read
+and answer your message.
 
 ## Chat Etiquette
 
-<pre>
+```text
 2010-07-19 12:32:12 you: Hi
 2010-07-19 12:32:15 co-worker: Hello.
 # CO-WORKER WAITS WHILE YOU PHRASE YOUR QUESTION
 2010-07-19 12:34:01 you: I'm working on [something] and I'm trying to do [etc...]
 2010-07-19 12:35:21 co-worker: Oh, that's [answer...]
-</pre>
+```
 
 It's as if you called someone on the phone and said "Hi!" and then put them on
 hold!
 
 Please do this instead:
 
-<pre>
+```text
 2010-07-19 12:32:12 you: Hi -- I'm working on [something] and I'm trying to do [etc...]
 2010-07-19 12:33:32 co-worker: [answers question]
-</pre>
+```
 
 Note that you get help minutes sooner, and you don't make them wait. Instead,
 the co-worker can start thinking about your question right away!
@@ -42,9 +43,9 @@ you have a sec ?", "yt?" and "ping". Just ask the question!
 If you feel it's brusque to simply say "Hi" and ask the question, you can do
 something like this:
 
-<pre>
+```text
 2010-07-19 12:32:12 you: Hi -- if you're not busy I was wondering if I could ask a question. I'm working on [something] and I'm trying to do [etc...]
-</pre>
+```
 
 Additionally, asking your question before getting a reply allows asynchronous
 communication. If the other party is away, and you leave before they come back,
@@ -53,18 +54,21 @@ wondering what they missed.
 
 ## Call Etiquette
 
-Some people like to probe with an initial "hello" to verify whether the
-presence status shown is true, hoping they can determine whether the recipient
-is near a device, then will immediately follow up with a call. Don't do that
-either.  If someone is able and willing to answer a chat message, it does not
-mean that they are also available for a voice or video call.
+Don't call someone out of the blue. Respect that your desired call partner
+might be busy and in [flow](https://en.wikipedia.org/wiki/Flow_(psychology)).
+Calling someone means you request immediate, full attention, interrupting any
+other activity. Some people like to probe with an initial "hello" to verify
+whether the presence status shown is true, hoping they can determine whether
+the recipient is near a device, then will immediately follow up with a call.
+Don't do that either.  If someone is able and willing to answer a chat message,
+it does not mean that they are also available for a voice or video call.
 
 Instead of sending a call probe, or asking "hey, do you have time for a call?"
 (which is better but not great), you can try something like this:
 
-<pre>
+```text
 2020-07-08 12:32:12 you: Hi - do you have X min for a quick call to talk about XYZ? [etc...]
-</pre>
+```
 
 This does three things: it time bounds the request, it gives the recipient some
 context, and it helps you remember what you wanted to talk about if the
